@@ -19,6 +19,8 @@ def random_character():
 
 
 
+# based on answers in
+# http://stackoverflow.com/questions/1477294/generate-random-utf-8-string-in-python
 def get_random_unicode(length):
     # Update this to include code point ranges to be sampled
     include_ranges = [
